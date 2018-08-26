@@ -1,22 +1,31 @@
+*, *:before, *:after {
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing: border-box; 
+   /*transition: all 300ms ease-out;*/
+   outline: none;
+}
+
 body {
   margin: 0;
   background: #000; 
 }
 video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  position: fixed;
+  top: 46%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
-  opacity: .5;
+  filter: contrast(2);
+  /*opacity: .5;*/
 }
 
 .stopfade { 
@@ -24,19 +33,15 @@ video {
 }
 
 #polina {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    background-image: linear-gradient(153deg, rgba(128,208,199,.8) 0%, rgba(19,84,122,.2) 100%);
-    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
-    color: white;
-    padding-top: 9em;
-    /* width: 33%; */
-    /* margin: 2rem; */
-    height: 100vh;
-    /*float: right;*/
-    font-size: 1.2rem;
-    font-size: 15px;
-    width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  background-image: linear-gradient(178deg, rgba(128,208,199,1) 0%, rgba(19,84,122,.7) 100%);
+  color: white;
+  padding-top: 9em;
+  height: 100vh;
+  font-size: 1.2rem;
+  font-size: 15px;
+  width: 100%;
 }
 h1 {
   font-size: 3rem;
@@ -47,21 +52,21 @@ h1 {
   font-weight: 300;
 }
 #polina button { 
-    display: block;
-    /* width: 80%; */
-    padding: 0.4rem 1.4rem;
-    border: none;
-    margin: 1rem auto;
-    font-size: 1.05rem;
-    background: rgba(255,255,255,0.23);
-    color: #fff;
-    border-radius: 24px;
-    cursor: pointer;
-    transition: .3s background;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    outline: none;
+  display: block;
+
+  padding: 0.4rem 1.4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.05rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: .3s background;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
 }
 #polina button:hover { 
    background: rgba(0,0,0,0.5);
