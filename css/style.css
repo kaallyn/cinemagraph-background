@@ -16,40 +16,52 @@ video {
  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
+  opacity: .5;
 }
+
 .stopfade { 
    opacity: .5;
 }
 
-#polina { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
+#polina {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    background-image: linear-gradient(153deg, rgba(128,208,199,.8) 0%, rgba(19,84,122,.2) 100%);
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    color: white;
+    padding-top: 9em;
+    /* width: 33%; */
+    /* margin: 2rem; */
+    height: 100vh;
+    /*float: right;*/
+    font-size: 1.2rem;
+    font-size: 15px;
+    width: 100%;
 }
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 3em;
   letter-spacing: .3rem;
+  text-align: center;
+  font-weight: 300;
 }
 #polina button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
+    display: block;
+    /* width: 80%; */
+    padding: 0.4rem 1.4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.05rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .3s background;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
 }
 #polina button:hover { 
    background: rgba(0,0,0,0.5);
