@@ -14,7 +14,7 @@
 
 <body>
 
-	<video class="hide city" poster="Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
+	<video class="city" id="show" poster="Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
   <!-- 
 - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
 WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
@@ -31,7 +31,7 @@ WCAG general accessibility recommendation is that media such as background video
 	<div id="polina">
 		<h1 class="example">The City</h1>
 		<button id="pause">Pause</button>
-		<button id="building" class="bgOption" value="building">building</button>
+		<button class="bgOption" value="building">building</button>
 		<button id="city" class="bgOption" value="city">city</button>
 		<!-- <button onclick="myFunction()">Try it</button> -->
 	</div>

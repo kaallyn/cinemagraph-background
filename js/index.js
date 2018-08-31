@@ -1,5 +1,6 @@
 // var vid = document.getElementById("show");
-var shownVid = document.getElementsByClassName("show")[0];
+// var shownVid = document.getElementById("show");
+// var shownVid = document.getElementsByClassName("show");
 var x = document.getElementsByClassName("example");
 // need to add .this or select video that has class .show
 // to add an ID= myPara.setAttribute("id", "id_you_like");
@@ -25,34 +26,44 @@ function SetupDisplay (current) {
 
 
 // alert for a button's value
-$("button").click(function() {
+// var bgBtn = document.getElementsByClassName("bgOption");
+
+$("button.bgOption").click(function() {
     var firedBtnVal = $(this).val();
     alert(firedBtnVal);
 
     // find video with firedbtnval as class
     // $("button").addClass('hide');
-    $('.'+firedBtnVal).addClass('show');
+    // $("video").not('.'+firedBtnVal).removeClass('show');
+    $("video").not('.'+firedBtnVal).removeAttr('id');
+    $("video").not('.'+firedBtnVal).addClass('hide');
+
     $('.'+firedBtnVal).removeClass('hide');
+    // $('.'+firedBtnVal).addClass('show');
+    $('.'+firedBtnVal).attr('id', 'show');
+
+
     // css('visibility', 'visible'); 
 });
 
 
 
 
-buildingButton.addEventListener("click", function() {
-  console.log("building");
+pauseButton.addEventListener("click", function() {
+  console.log("pause");
   // shownVid.classList.toggle("hide");
   // buildingButton.SetupDisplay();
   // console.log()
+  var shownVid = document.getElementById("show");
 
 
-  // if (shownVid.paused) {
-  //   shownVid.play();
-  //   pauseButton.innerHTML = "Pause";
-  // } else {
-  //   shownVid.pause();
-  //   pauseButton.innerHTML = "Paused";
-  // }
+  if (shownVid.paused) {
+    shownVid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    shownVid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
 });
 // when video button other than currently playing one is clicked, hide currently playing vid
 // then show vid of id whose button was clicked
