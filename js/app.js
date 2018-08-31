@@ -8,8 +8,6 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
 }
 
 
-
-
 // button's value to video function
 $("button.bgOption").click(function() {
     var firedBtnVal = $(this).val();
@@ -20,6 +18,11 @@ $("button.bgOption").click(function() {
     // videos that do have this button's value as a clas will remove hide class and add show id
     $('.'+firedBtnVal).removeClass('hide');
     $('.'+firedBtnVal).attr('id', 'show');
+    // remove all classes to #polina
+    $('#polina').removeAttr('class');
+    // add class named button's blue to #polina
+    $('#polina').addClass(firedBtnVal+'Bg');
+    
 
 });
 
