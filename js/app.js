@@ -18,11 +18,15 @@ $("button.bgOption").click(function() {
     // videos that do have this button's value as a clas will remove hide class and add show id
     $('.'+firedBtnVal).removeClass('hide');
     $('.'+firedBtnVal).attr('id', 'show');
+    $('.'+firedBtnVal).get(0).play();
+    console.log($('.'+firedBtnVal).get(0));
+    pauseButton.innerHTML = "Pause";
+
     // $('video.'+firedBtnVal).play();
-    // remove all classes to #polina
-    $('#polina').removeAttr('class');
-    // add class named button's blue to #polina
-    $('#polina').addClass(firedBtnVal+'Bg');
+    // remove all classes to #container
+    $('#container').removeAttr('class');
+    // add class named button's blue to #container
+    $('#container').addClass(firedBtnVal+'Bg');
     
 });
 
