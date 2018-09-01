@@ -55,7 +55,7 @@ video.beer {
   -webkit-transform: none;
   transform: none;
   background: url('../Pexels-Videos-4595.jpg') no-repeat;
-  filter: contrast(2);
+
 }
 
 .building {
@@ -94,6 +94,8 @@ video.beer {
   
   background: linear-gradient(90deg, rgba(134,14,39,0.9), rgba(211,31,60,0) );
   background: linear-gradient(170deg, rgba(134,14,39,1), rgba(211,31,60,.5) );
+  background-image: linear-gradient(to top, rgba(255,8,68,.5) 0%, rgba(255,177,153,.7) 100%);
+  background-image: linear-gradient(to top, rgba(112,40,228, .5)  0%, rgba(22,178,202, .9)100%);
   color: white;
   padding-top: 9em;
   height: 100vh;
@@ -109,8 +111,8 @@ video.beer {
 
 #polina.beerBg {
   background-image: linear-gradient(10deg, rgba(128,208,199,1) 0%, rgba(19,84,122,.7) 100%);
-  background-image: linear-gradient(-45deg, rgba(225,199,150,.5) 0%, rgba(255,107,149,.5) 100%);
-  background-image: linear-gradient(-45deg, rgba(225,255,255,.5) 0%, rgba(225,255,255,.3) 100%);
+  background-image: linear-gradient(-45deg, rgba(225,199,150,.7) 0%, rgba(255,107,149,.5) 100%);
+  /*background-image: linear-gradient(-45deg, rgba(225,255,255,.5) 0%, rgba(225,255,255,.3) 100%);*/
 }
 
 
