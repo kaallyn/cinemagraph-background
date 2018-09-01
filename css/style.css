@@ -85,6 +85,7 @@ video.beer {
   font-size: 1.2rem;
   font-size: 15px;
   width: 100%;
+  text-align: center;
 }
 
 #polina.buildingBg {
@@ -126,7 +127,7 @@ h1 {
   text-shadow: 1px 1px 8px  #888888;
 }
 #polina button { 
-  display: block;
+  /*display: block;*/
 
   padding: 0.4rem 1.4rem;
   border: none;
@@ -156,6 +157,10 @@ a {
 }
 a:hover{
   background:rgba(0,0,0,0.9);
+}
+
+nav button {
+  display: inline-block;
 }
 /*@media screen and (max-width: 500px) { 
   div{width:70%;} 
