@@ -54,12 +54,15 @@ video.beer {
   right: auto;
   -webkit-transform: none;
   transform: none;
-  background: url('../Pexels-Videos-4595.jpg') no-repeat;
-
+  background: url('../Filling-glass-with-beer-multiply-logo.jpg') no-repeat;
 }
 
 .building {
   filter: grayscale(100%);
+  background: url('../Corporate_Cloud_Videvo-loop2.jpg') no-repeat;
+
+
+  
 }
 
 
@@ -159,13 +162,19 @@ a:hover{
   background:rgba(0,0,0,0.9);
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 nav button {
   display: inline-block;
 }
-/*@media screen and (max-width: 500px) { 
-  div{width:70%;} 
+@media screen and (max-width: 500px) { 
+  h1 {
+    font-size: 2rem;
+  } 
 }
-@media screen and (max-device-width: 800px) {
+/*@media screen and (max-device-width: 800px) {
   html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }*/
