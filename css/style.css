@@ -24,6 +24,8 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #show {
@@ -59,7 +61,7 @@ video.city {
   background: url('../Pexels-Videos-4595.jpg') no-repeat;
   filter: contrast(2);
   object-position: bottom right;
-  height: 122%;
+  /*height: 122%;*/
 }
 
 video.beer { 
@@ -181,7 +183,6 @@ button#pause {
    background: rgba(0,0,0,0.9);
 }
 
-
 a {
   display: inline-block;
   color: #fff;
@@ -192,6 +193,7 @@ a {
 }
 a:hover{
   background:rgba(0,0,0,0.9);
+  transform: translateY(30px);
 }
 
 p {
@@ -269,8 +271,7 @@ nav {
 .btn.play .bar-2 {
   -webkit-transform: translateX(20px) translateY(5px) rotate(-125deg);
           transform: translateX(20px) translateY(5px) rotate(-125deg);
-}
-*/
+}*/
 
 
 /*--------END PLAY BUTTON----------*/

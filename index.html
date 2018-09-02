@@ -15,7 +15,7 @@
 
 <body>
 
-	<video class="city" id="show" poster="Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
+	<video class="city" id="show"  poster="Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
   <!-- 
 - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
 WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
@@ -24,30 +24,26 @@ WCAG general accessibility recommendation is that media such as background video
 	</video>
 
 	<video class="building hide" poster="Corporate_Cloud_Videvo-loop2.jpg" playsinline autoplay muted loop >
-
 		<source src="Corporate_Cloud_Videvo-loop2-low.mp4" type="video/mp4">
 	</video>
-	<video class="beer hide" poster="Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
 
+	<video class="beer hide" poster="Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
 		<source src="Filling-glass-with-beer-multiply-logo.mp4" type="video/mp4">
 	</video>
 	<video class="cat hide" poster="cat-clip-reverse-84-hold.jpg" playsinline autoplay muted loop >
-
 		<source src="cat-clip-reverse-84-hold.mp4" type="video/mp4">
 	</video>
 
 
 	<main id="container" class="cityBg">
-		<!-- <h1 class="example">Cinemagraph<br>Backgrounds</h1> -->
 		<h1 class="example">Cinemagraph<br><span>Backgrounds</span></h1>
 		<button id="pause">Pause</button>
-		<!-- <div class="btn play">
+		<div class="btn play">
 			<span class="bar bar-1"></span>
 			<span class="bar bar-2"></span>				
-		</div> -->
-		<!-- <p>Choose your background:</p> -->
+		</div>
 		<nav>
-			<p>Choose your background:</p>
+			<p>Choose a background:</p>
 			<button id="city" class="bgOption" value="city">city</button>
 			<button id="beer" class="bgOption" value="beer">beer</button>
 			<button class="bgOption" value="building">building</button>
