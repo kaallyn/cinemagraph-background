@@ -17,15 +17,16 @@ html {
 body {
   margin: 0;
   background: #000; 
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.35rem;
+  font-weight: 300;
   color: #fff;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
   height: 100vh;
   overflow: hidden;
+
 }
 
 #show {
@@ -85,7 +86,6 @@ video.cat {
 
 }
 
-
 @keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
@@ -96,12 +96,10 @@ video.cat {
 }
 
 #container {
-  font-weight: 100;
-  color: white;
+  color: #fff;
   padding-top: 9em;
   height: 100vh;
-  font-size: 1.2rem;
-  font-size: 15px;
+  font-size: 1.5rem;
   width: 100%;
   text-align: center;
   filter: saturate(2);
@@ -173,6 +171,7 @@ button {
   letter-spacing: 2px;
   outline: none;
   mix-blend-mode: soft-light;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 button#pause {
