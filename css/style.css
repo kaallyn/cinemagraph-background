@@ -59,7 +59,7 @@ video.city {
   background: url('../Pexels-Videos-4595.jpg') no-repeat;
   filter: contrast(2);
   object-position: bottom right;
-  height: 122%;
+  /*height: 122%;*/
 }
 
 video.beer { 
