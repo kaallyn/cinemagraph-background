@@ -18,8 +18,8 @@ $("button.bgOption").click(function() {
     // videos that do have this button's value as a clas will remove hide class and add show id
     $('.'+firedBtnVal).removeClass('hide');
     $('.'+firedBtnVal).attr('id', 'show');
+    // plays selected video even if was previously paused, resets button pause/paused
     $('.'+firedBtnVal).get(0).play();
-    console.log($('.'+firedBtnVal).get(0));
     pauseButton.innerHTML = "Pause";
 
     // $('video.'+firedBtnVal).play();
