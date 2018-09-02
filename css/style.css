@@ -160,7 +160,7 @@ button {
   padding: 0.4rem 1.4rem;
   border: none;
   margin: 1rem auto;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   background: rgba(255,255,255,0.23);
   color: #fff;
   border-radius: 24px;
@@ -290,6 +290,10 @@ nav button {
   h1 {
     font-size: 5rem;
   } 
+  p {
+    display: block;
+    margin: 1rem 0 0 0;
+  }
 }
 /*@media screen and (max-device-width: 800px) {
   html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
