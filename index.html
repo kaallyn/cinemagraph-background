@@ -16,23 +16,26 @@
 
 <body>
 
-	<video class="city" id="show"  poster="Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
+	<video class="city" id="show"  poster="img/Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
   <!-- 
 - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
 WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 <!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
-		<source src="4595-loop.mp4" type="video/mp4">
+		<source src="video/4595-loop.mp4" type="video/mp4">
 	</video>
 
-	<video class="building hide" poster="Corporate_Cloud_Videvo-loop2.jpg" playsinline autoplay muted loop >
-		<source src="Corporate_Cloud_Videvo-loop2-low.mp4" type="video/mp4">
+	<video class="building hide" poster="img/Corporate_Cloud_Videvo-loop2.jpg" playsinline autoplay muted loop >
+		<source src="video/Corporate_Cloud_Videvo-loop2-low.mp4" type="video/mp4">
 	</video>
 
-	<video class="beer hide" poster="Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
-		<source src="Filling-glass-with-beer-multiply-logo.mp4" type="video/mp4">
+	<video class="beer hide" poster="img/Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
+		<source src="video/Filling-glass-with-beer-multiply-logo.mp4" type="video/mp4">
 	</video>
-	<video class="cat hide" poster="cat-clip-reverse-84-hold.jpg" playsinline autoplay muted loop >
-		<source src="cat-clip-reverse-84-hold.mp4" type="video/mp4">
+	<video class="cat hide" poster="img/cat-clip-reverse-84-hold.jpg" playsinline autoplay muted loop >
+		<source src="video/cat-clip-reverse-84-hold.mp4" type="video/mp4">
+	</video>
+	<video class="swing hide" poster="img/cat-clip-reverse-84-hold.jpg" playsinline autoplay muted loop >
+		<source src="video/swing.mp4" type="video/mp4">
 	</video>
 
 
@@ -50,6 +53,7 @@ WCAG general accessibility recommendation is that media such as background video
 			<button class="bgOption" value="building">building</button>
 			
 			<button id="cat" class="bgOption" value="cat">cat</button>
+			<button id="swing" class="bgOption" value="swing">swing</button>
 		</nav>
 	</main>
 

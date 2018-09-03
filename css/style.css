@@ -59,7 +59,7 @@ video.city {
   right: 0;
   -webkit-transform: none;
   transform: none;
-  background: url('../Pexels-Videos-4595.jpg') no-repeat;
+  background: url('../img/Pexels-Videos-4595.jpg') no-repeat;
   filter: contrast(2);
   object-position: bottom right;
   /*height: 122%;*/
@@ -73,12 +73,12 @@ video.beer {
   right: auto;
   -webkit-transform: none;
   transform: none;
-  background: url('../Filling-glass-with-beer-multiply-logo.jpg') no-repeat;
+  background: url('../img/Filling-glass-with-beer-multiply-logo.jpg') no-repeat;
 }
 
 .building {
   filter: grayscale(100%);
-  background: url('../Corporate_Cloud_Videvo-loop2.jpg') no-repeat;  
+  background: url('../img/Corporate_Cloud_Videvo-loop2.jpg') no-repeat;  
 }
 
 video.cat {
@@ -133,6 +133,10 @@ video.cat {
 
 #container.catBg {
   background-image: linear-gradient(170deg, rgba(22, 160, 133, .7) 0%, rgba(244, 208, 63,.45) 100%);
+}
+
+#container.swingBg {
+  background: linear-gradient(to right, rgba(75, 192, 200,.7), rgba(199, 121, 208,.5), rgba(254, 172, 94,.8));
 }
 
 h1 {
@@ -210,6 +214,7 @@ nav {
   left: 0;
   right: 0;
   color:lightgray;
+  padding: 0 1rem;
 }
 /*#container.buildingBg nav {
   mix-blend-mode: multiply;
@@ -286,7 +291,7 @@ nav button {
   mix-blend-mode: lighten;
   color:lightgray;
 }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 590px) { 
   h1 {
     font-size: 5rem;
   } 
