@@ -40,7 +40,7 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = "Pause";
   } else {
     shownVid.pause();
-    pauseButton.innerHTML = "Paused";
+    pauseButton.innerHTML = "Play";
   }
 });
 
