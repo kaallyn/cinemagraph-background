@@ -87,7 +87,8 @@ video.cat {
 }
 
 video.swing {
-  filter: contrast(2);
+  /*filter: contrast(2);*/
+  filter: saturate(2);
 
 }
 

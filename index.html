@@ -16,7 +16,10 @@
 
 <body>
 
-	<video class="city " id="show" poster="img/Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
+	<video class="beer hide" id="show" poster="img/Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
+		<source src="video/Filling-glass-with-beer-multiply-logo.mp4" type="video/mp4">
+	</video>
+	<video class="city hide"  poster="img/Pexels-Videos-4595.jpg"  playsinline autoplay muted loop >
   <!-- 
 - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
 WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
@@ -28,18 +31,21 @@ WCAG general accessibility recommendation is that media such as background video
 		<source src="video/Corporate_Cloud_Videvo-loop2-low.mp4" type="video/mp4">
 	</video>
 
-	<video class="beer hide" poster="img/Filling-glass-with-beer-multiply-logo.jpg" playsinline autoplay muted loop >
-		<source src="video/Filling-glass-with-beer-multiply-logo.mp4" type="video/mp4">
-	</video>
+	
 	<video class="cat hide" poster="img/cat-clip-reverse-84-hold.jpg" playsinline autoplay muted loop >
 		<source src="video/cat-clip-reverse-84-hold.mp4" type="video/mp4">
 	</video>
 	<!-- <video class="swing hide" poster="img/Park-Swing-final-cut.jpg" playsinline autoplay muted loop >
 		<source src="video/Park-Swing-try3.mp4" type="video/mp4">
 	</video> -->
+	<video class="swing hide" poster="img/Park-Swing-final-cut.jpg" playsinline autoplay muted loop >
+		<source src="video/tip-toes.mp4#t=3,20" type="video/mp4">
+	</video>
+
+	
 
 
-	<main id="container" class="cityBg">
+	<main id="container" class="beerBg">
 		<h1 class="example">Cinemagraph<br><span>Backgrounds</span></h1>
 		<button id="pause">Pause</button>
 		<div class="btn play">
@@ -48,12 +54,14 @@ WCAG general accessibility recommendation is that media such as background video
 		</div>
 		<nav>
 			<p>Choose your background:</p>
-			<button id="city" class="bgOption" value="city">city</button>
 			<button id="beer" class="bgOption" value="beer">beer</button>
+			<button id="city" class="bgOption" value="city">city</button>
+			
 			<button class="bgOption" value="building">building</button>
 			
 			<button id="cat" class="bgOption" value="cat">cat</button>
 			<!-- <button id="swing" class="bgOption" value="swing">swing</button> -->
+			<button id="toes" class="bgOption" value="swing">shoes</button>
 		</nav>
 	</main>
 
